@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+/*GENERAL*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";    
+}
+
+
+/*HEADER-SECTION*/
+#header-section {
+ width: 1440px;
+ height: 83px;
+}
+
+.nav-bar {
+    width: 1300px;
+    height: 58px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-top: 12.5px;
+
+}
+
+.logo img {
+width: 130px;
+height: 58px;
+}
+
+.nav-list {
+    width: 361px;
+    height: 24px;
+    gap: 40px;
+    margin-top: 12px;
+}
+
+.nav-list ul {
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav-list ul li {
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.nav-list ul li a {
+    text-decoration: none;
+    color: #181A18;
+}
+
+
+
+/* HERO SECTION*/
+#hero-section {
+    background: url(/Image.png) no-repeat center center/cover;
+    min-height: 767px;
+    min-width: 1440px;
+    padding-top: 140px;
+}
+
+.wrapper{
+width: 493px;
+height: 336px;
+padding: 60px 80px 60px 80px;
+gap: 32px;
+border-radius: 0px 60px 60px 0px;
+background: #fff;
+}
+
+.text {
+width: 325px;
+height: 216px;
+gap: 24px;
+}
+
+.text h1{
+width: 325px;
+height: 120px;
+font-size: 52px;
+font-weight: 700;
+line-height: 60px;
+text-align: left;
+}
+
+#hero-section .text p {
+width: 325px;
+height: 72px;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+margin-top: 24px;
+}
+
+/*FUTURE SECTION*/
+
+#future-section {
+    margin-top: 170px;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 1280px;
+    height: 378px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-content-wrapper {
+width: 640px;
+height: 378px;
+padding: 120px 80px 120px 80px;
+border-radius: 0px 60px 60px 0px;
+background: #F2F0F2;
+}
+
+
+.future-content {
+width: 480px;
+height: 138px;
+/* margin-top: 120px;
+margin-left: 80px;
+margin-right: 80px; */
+}
+
+.future-content h2 {
+width: 480px;
+height: 54px;
+font-family: "Lato";
+font-size: 48px;
+font-weight: 700;
+line-height: 54px;
+color: #181A18;
+}
+
+.future-content p {
+width: 480px;
+height: 60px;
+font-family: "Lato";
+font-size: 16.5px;
+font-weight: 400;
+margin-top: 24px;
+line-height: 20px;
+color: #181A18;
+
+}
+
+.image-wrapper {
+    width: 640px;
+    height: 378px;
+}
+
+
+.images {
+    width: 320px;
+    height: 189px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
