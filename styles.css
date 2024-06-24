@@ -34,14 +34,14 @@ li a {
     text-decoration: none;
 }
 
-#main-content .hero-page {
+#main-content .hero-section {
  background-image: url(/Image.png);   
  width: 1440px;
  height: 767px;
  background-repeat: no-repeat;
 }
 
-aside {
+article {
 width: 493px;
 height: 336px;
 background-color: white;
@@ -51,7 +51,7 @@ float: left;
 margin-top: 137px;    
 }
 
-aside .text {
+article .text {
 width: 325px;
 height: 216px;
 }
@@ -132,13 +132,13 @@ margin-top: 110px;
 margin-bottom: 70px;
 }
 
-.id-aliquam-text {
+.feature-text {
 width: 847px;
 height: 172px;
 margin: 0px auto;
 }
 
-.id-aliquam-text h2{
+.feature h2{
 width: 100%;
 height: 108px;
 font-weight: 700;
@@ -146,7 +146,7 @@ font-size: 48px;
 text-align: center;
 }
 
-.id-aliquam-text p {
+.feature-text p {
 width: 100%;
 height: 48px;
 margin-top: 16px;
@@ -193,12 +193,16 @@ font-size: 16px;
 line-height: 20px;
 }
 
+
+
+/*Tablet View*/
+
 @media (max-width: 768px) {
 header {
 width: 768px;
 }
 
-#main-content .hero-page {
+#main-content .hero-section {
 width: 768px;
 background-position: 50%;
 }
@@ -228,16 +232,16 @@ height: 1050px;
 padding: 0px;
 }
 
-.id-aliquam-text {
+.feature-text {
 width: 600px;
 height: 190px;
 }
 
-.id-aliquam-text h2 {
+.feature-text h2 {
 font-size: 38px;
 }
 
-.id-aliquam-text p{
+.feature-text p{
 font-size: 20px;
 }
 
@@ -255,6 +259,9 @@ height: 800px;
 margin: 0px auto;
 }
 }
+
+
+/*Mobile View*/
 
 @media (max-width: 375px) {
 header {
@@ -276,20 +283,20 @@ display: none;
     transition: 0.4s;
   }
 
-#main-content .hero-page {
+#main-content .hero-section {
 width: 375px;
 height: 748px;
 background-position: 60%;
 }
 
-aside {
+article {
 width: 360px;
 padding: 40px 40px;
 height: 232px;
 margin-top: 20px;
 }
 
-aside .text {
+article .text {
 width: 296px;
 height: 150px;
 }
@@ -332,16 +339,16 @@ height: 980px;
 margin-top: 0px;
 }
 
-.id-aliquam-text {
+.feature-text {
 width: 343px;
 height: 220px;
 }
 
-.id-aliquam-text h2{
+.feature-text h2{
 font-size: 30px;
 }
 
-.id-aliquam-text p{
+.feature-text p{
 font-size: 16px;
 margin-top: 10px;
 }
