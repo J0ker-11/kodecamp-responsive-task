@@ -292,6 +292,7 @@ display: none;
 #main-content .hero-section {
 width: 375px;
 height: 748px;
+margin-top: 80px;
 background-position: 60%;
 }
 
