@@ -12,7 +12,7 @@ body {
 header {
 width: 1440px;
 height: 83px;
-padding: 0px 60px;
+padding: 0px 60px; 
 background: white;
 position: fixed;
 top: 0;
@@ -38,6 +38,7 @@ li a {
     color: black;
     text-decoration: none;
 }
+
 
 #main-content .hero-section {
  background-image: url(/Image.png);   
@@ -322,6 +323,7 @@ margin: 60px auto;
 
 .img1 {
 border-radius: 20px 0 0 0;
+
 }
 
 .img2 {
