@@ -45,6 +45,7 @@ li a {
  width: 1440px;
  height: 767px;
  background-repeat: no-repeat;
+ background-position: center;
 }
 
 article {
